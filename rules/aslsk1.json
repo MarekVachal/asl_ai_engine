@@ -70,12 +70,7 @@
         "out_of_season": true
       },
       "season": {
-        "in_season_months": [
-          "June",
-          "July",
-          "August",
-          "September"
-        ],
+        "in_season_months": [ 6, 7, 8, 9],
         "scenario_override_allowed": true
       },
       "notes": "Grain is a hindrance in season and open ground out of season."

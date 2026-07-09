@@ -1,7 +1,28 @@
 {
+  "schema": "asl-ai-engine/scenario/v1",
+  "manifest_type": "scenario",
   "id": "S1",
   "name": "Retaking Vierville",
+  "system": "ASLSK",
   "starter_kit": 1,
+  "registry": "../registry.json",
+  "dependency_resolution": {
+    "method": "registry",
+    "instructions": [
+      "Load this scenario JSON first.",
+      "Resolve registry using the relative path in the 'registry' field.",
+      "Use starter_kit to select the correct rules and units in the registry.",
+      "Use maps listed in this scenario to select the correct map files in the registry.",
+      "Treat scenario, registry, rules, maps and units files as the single source of truth.",
+      "If required map, unit, rule, LOS or scenario data is missing, ask the player instead of inventing data."
+    ]
+  },
+  "environment": {
+    "date": "1944-06-07",
+    "time_of_day": "Morning",
+    "weather": "Clear",
+    "wind": "None"
+  },
   "maps": ["Y"],
   "map_layout": {
     "boards": [
