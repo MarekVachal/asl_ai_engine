@@ -1,0 +1,17 @@
+{
+    "starter_kits":{
+
+        "1":{
+
+            "rules":"rules/aslsk1.json",
+
+            "maps":{
+
+                "Y":"maps/map_y.json",
+                "X":"maps/map_x.json"
+            }
+
+        }
+
+    }
+}

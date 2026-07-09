@@ -1,0 +1,1585 @@
+{
+  "metadata": {
+    "map": "Y",
+    "version": "0.1",
+  },
+  "hexes": {
+    "A1": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "A2": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "A3": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "A4": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "A5": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "B5"
+      ],
+      "los": {}
+    },
+    "A6": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "B5"
+      ],
+      "los": {}
+    },
+    "A7": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "A8": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "A9": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "A10": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "B0": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "B1": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "B2": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "B3": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "B4": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "B5": {
+      "terrain": "Woods",
+      "road": true,
+      "road_connections": [
+        "A4",
+        "A5",
+        "C5"
+      ],
+      "los": {}
+    },
+    "B6": {
+      "terrain": "StoneBuilding",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "B7": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "B8": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "B9": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "B10": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "C1": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "C2": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "C3": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "C4": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "C5": {
+      "terrain": "Woods",
+      "road": true,
+      "road_connections": [
+        "B5",
+        "D4",
+        "C6"
+      ],
+      "los": {}
+    },
+    "C6": {
+      "terrain": "Woods",
+      "road": true,
+      "road_connections": [
+        "C5",
+        "C7"
+      ],
+      "los": {}
+    },
+    "C7": {
+      "terrain": "Woods",
+      "road": true,
+      "road_connections": [
+        "C6",
+        "C8"
+      ],
+      "los": {}
+    },
+    "C8": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "C7",
+        "D7"
+      ],
+      "los": {}
+    },
+    "C9": {
+      "terrain": "Orchard",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "C10": {
+      "terrain": "Orchard",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "D0": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "D1": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "D2": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "D3": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "D4": {
+      "terrain": "Woods",
+      "road": true,
+      "road_connections": [
+        "C5",
+        "E4"
+      ],
+      "los": {}
+    },
+    "D5": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "D6": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "D7": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "C8",
+        "E8"
+      ],
+      "los": {}
+    },
+    "D8": {
+      "terrain": "WoodenBuilding",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "D9": {
+      "terrain": "Orchard",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "D10": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "E1": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "E2": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "E3": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "E4": {
+      "terrain": "Woods",
+      "road": true,
+      "road_connections": [
+        "D4",
+        "F3"
+      ],
+      "los": {}
+    },
+    "E5": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "E6": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "E7": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "E8": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "D7",
+        "F8"
+      ],
+      "los": {}
+    },
+    "E9": {
+      "terrain": "Orchard",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "E10": {
+      "terrain": "Orchard",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "F0": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "F1": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "F2": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "F3": {
+      "terrain": "Woods",
+      "road": true,
+      "road_connections": [
+        "E4",
+        "G3"
+      ],
+      "los": {}
+    },
+    "F4": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "F5": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "F6": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "F7": {
+      "terrain": "StoneBuilding",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "F8": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "E8",
+        "G9"
+      ],
+      "los": {}
+    },
+    "F9": {
+      "terrain": "Orchard",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "F10": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "G1": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "G2": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "G3": {
+      "terrain": "Woods",
+      "road": true,
+      "road_connections": [
+        "F3",
+        "H2"
+      ],
+      "los": {}
+    },
+    "G4": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "G5": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "G6": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "G7": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "G8": {
+      "terrain": "Orchard",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "G9": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "F8",
+        "H8"
+      ],
+      "los": {}
+    },
+    "G10": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "H0": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "H1": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "I1",
+        "H2"
+      ],
+      "los": {}
+    },
+    "H2": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "H1",
+        "G3",
+        "I3"
+      ],
+      "los": {}
+    },
+    "H3": {
+      "terrain": "StoneBuilding",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "H4": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "H5"
+      ],
+      "los": {}
+    },
+    "H5": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "H4",
+        "H6"
+      ],
+      "los": {}
+    },
+    "H6": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "H5",
+        "I7"
+      ],
+      "los": {}
+    },
+    "H7": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "H8": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "G9",
+        "I9"
+      ],
+      "los": {}
+    },
+    "H9": {
+      "terrain": "Orchard",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "H10": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "I1": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "H1"
+      ],
+      "los": {}
+    },
+    "I2": {
+      "terrain": "StoneBuilding",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "I3": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "H2",
+        "J2"
+      ],
+      "los": {}
+    },
+    "I4": {
+      "terrain": "StoneBuilding",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "I5": {
+      "terrain": "StoneBuilding",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "I6": {
+      "terrain": "StoneBuilding",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "I7": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "H6",
+        "J6"
+      ],
+      "los": {}
+    },
+    "I8": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "I9": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "H8",
+        "I10"
+      ],
+      "los": {}
+    },
+    "I10": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "I9"
+      ],
+      "los": {}
+    },
+    "J0": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "J1": {
+      "terrain": "StoneBuilding",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "J2": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "I3",
+        "K3"
+      ],
+      "los": {}
+    },
+    "J3": {
+      "terrain": "StoneBuilding",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "J4": {
+      "terrain": "Orchard",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "J5": {
+      "terrain": "Orchard",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "J6": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "I7",
+        "K7"
+      ],
+      "los": {}
+    },
+    "J7": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "J8": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "J9": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "J10": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "K1": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "K2": {
+      "terrain": "StoneBuilding",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "K3": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "J2",
+        "L2"
+      ],
+      "los": {}
+    },
+    "K4": {
+      "terrain": "StoneBuilding",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "K5": {
+      "terrain": "Orchard",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "K6": {
+      "terrain": "StoneBuilding",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "K7": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "J6",
+        "L6"
+      ],
+      "los": {}
+    },
+    "K8": {
+      "terrain": "StoneBuilding",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "K9": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "K10": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "L0": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "L1": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "L2": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "K3",
+        "M3"
+      ],
+      "los": {}
+    },
+    "L3": {
+      "terrain": "StoneBuilding",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "L4": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "L5": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "M5",
+        "L6"
+      ],
+      "los": {}
+    },
+    "L6": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "L5",
+        "K7",
+        "M7"
+      ],
+      "los": {}
+    },
+    "L7": {
+      "terrain": "StoneBuilding",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "L8": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "L9": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "L10": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "M1": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "M2": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "M3": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "L2",
+        "N3"
+      ],
+      "los": {}
+    },
+    "M4": {
+      "terrain": "StoneBuilding",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "M5": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "N4",
+        "L5"
+      ],
+      "los": {}
+    },
+    "M6": {
+      "terrain": "StoneBuilding",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "M7": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "L6",
+        "N7"
+      ],
+      "los": {}
+    },
+    "M8": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "M9": {
+      "terrain": "Grain",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "M10": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "N0": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "N1": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "N2": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "N3": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "M3",
+        "O3",
+        "O4",
+        "N4"
+      ],
+      "los": {}
+    },
+    "N4": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "N3",
+        "M5"
+      ],
+      "los": {}
+    },
+    "N5": {
+      "terrain": "StoneBuilding",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "N6": {
+      "terrain": "StoneBuilding",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "N7": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "M7",
+        "O7"
+      ],
+      "los": {}
+    },
+    "N8": {
+      "terrain": "Grain",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "N9": {
+      "terrain": "Grain",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "N10": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "O1": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "O2": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "O3": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "P2",
+        "N3"
+      ],
+      "los": {}
+    },
+    "O4": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "N3",
+        "P3"
+      ],
+      "los": {}
+    },
+    "O5": {
+      "terrain": "Orchard",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "O6": {
+      "terrain": "StoneBuilding",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "O7": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "N7",
+        "P7"
+      ],
+      "los": {}
+    },
+    "O8": {
+      "terrain": "Grain",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "O9": {
+      "terrain": "Grain",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "O10": {
+      "terrain": "WoodenBuilding",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "P0": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "P1": {
+      "terrain": "StoneBuilding",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "P2": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "Q2",
+        "O3"
+      ],
+      "los": {}
+    },
+    "P3": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "O4",
+        "P4",
+        "Q4"
+      ],
+      "los": {}
+    },
+    "P4": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "P3"
+      ],
+      "los": {}
+    },
+    "P5": {
+      "terrain": "StoneBuilding",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "P6": {
+      "terrain": "StoneBuilding",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "P7": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "O7",
+        "Q7"
+      ],
+      "los": {}
+    },
+    "P8": {
+      "terrain": "Grain",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "P9": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "P10": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "Q1": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "Q2"
+      ],
+      "los": {}
+    },
+    "Q2": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "Q1",
+        "P2"
+      ],
+      "los": {}
+    },
+    "Q3": {
+      "terrain": "Orchard",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "Q4": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "P3",
+        "R4"
+      ],
+      "los": {}
+    },
+    "Q5": {
+      "terrain": "Orchard",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "Q6": {
+      "terrain": "StoneBuilding",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "Q7": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "P7",
+        "R6",
+        "Q8"
+      ],
+      "los": {}
+    },
+    "Q8": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "Q7",
+        "Q9"
+      ],
+      "los": {}
+    },
+    "Q9": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "Q8",
+        "Q10"
+      ],
+      "los": {}
+    },
+    "Q10": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "Q9"
+      ],
+      "los": {}
+    },
+    "R0": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "R1": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "R2": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "R3": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "R4": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "Q4",
+        "S5"
+      ],
+      "los": {}
+    },
+    "R5": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "R4",
+        "R6"
+      ],
+      "los": {}
+    },
+    "R6": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "R5",
+        "Q7",
+        "S7"
+      ],
+      "los": {}
+    },
+    "R7": {
+      "terrain": "StoneBuilding",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "R8": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "R9": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "R10": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "S1": {
+      "terrain": "Grain",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "S2": {
+      "terrain": "Grain",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "S3": {
+      "terrain": "Grain",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "S4": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "S5": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "R4",
+        "T4"
+      ],
+      "los": {}
+    },
+    "S6": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "S7": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "R6",
+        "T7"
+      ],
+      "los": {}
+    },
+    "S8": {
+      "terrain": "Grain",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "S9": {
+      "terrain": "Grain",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "S10": {
+      "terrain": "Grain",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "T0": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "T1": {
+      "terrain": "Grain",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "T2": {
+      "terrain": "Grain",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "T3": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "T4": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "S5",
+        "U4"
+      ],
+      "los": {}
+    },
+    "T5": {
+      "terrain": "Orchard",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "T6": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "T7": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "S7",
+        "U7"
+      ],
+      "los": {}
+    },
+    "T8": {
+      "terrain": "Grain",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "T9": {
+      "terrain": "Grain",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "T10": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "U1": {
+      "terrain": "Grain",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "U2": {
+      "terrain": "Grain",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "U3": {
+      "terrain": "StoneBuilding",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "U4": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "T4",
+        "V4"
+      ],
+      "los": {}
+    },
+    "U5": {
+      "terrain": "Orchard",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "U6": {
+      "terrain": "StoneBuilding",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "U7": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "T7",
+        "V7"
+      ],
+      "los": {}
+    },
+    "U8": {
+      "terrain": "Grain",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "U9": {
+      "terrain": "Grain",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "U10": {
+      "terrain": "Grain",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "V0": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "V1": {
+      "terrain": "Grain",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "V2": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "V3": {
+      "terrain": "OpenGround",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "V4": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "U4"
+      ],
+      "los": {}
+    },
+    "V5": {
+      "terrain": "Orchard",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "V6": {
+      "terrain": "StoneBuilding",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "V7": {
+      "terrain": "OpenGround",
+      "road": true,
+      "road_connections": [
+        "U7"
+      ],
+      "los": {}
+    },
+    "V8": {
+      "terrain": "Grain",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "V9": {
+      "terrain": "Grain",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    },
+    "V10": {
+      "terrain": "Woods",
+      "road": false,
+      "road_connections": [],
+      "los": {}
+    }
+  }
+}

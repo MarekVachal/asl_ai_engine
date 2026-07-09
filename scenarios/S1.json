@@ -1,0 +1,204 @@
+{
+  "id": "S1",
+  "name": "Retaking Vierville",
+  "starter_kit": 1,
+  "maps": ["Y"],
+  "map_layout": {
+    "boards": [
+      {
+        "id": "Y",
+        "used_area": {
+            "columns": {
+                "from": "A",
+                "to": "V",
+                "inclusive": true
+            },
+            "rows": {
+                "from": 1,
+                "to": 10,
+                "inclusive": true
+            }
+        },
+        "north_edge": "column_V"
+      }
+    ]
+  },
+  "turns": 5,
+  "initiative": {
+    "first_setup": "American",
+    "first_player": "German"
+  },
+  "victory_conditions": {
+    "winner": "American",
+    "condition": {
+      "type": "building_control",
+      "required_buildings": [
+        "N5",
+        "N6",
+        "M4",
+        "L3"
+      ],
+      "german_good_order_units": 0
+    }
+  },
+  "balance": [
+    {
+      "side": "American",
+      "description": "Remove L3 from required victory buildings."
+    },
+    {
+      "side": "German",
+      "description": "Add one 5-4-8 squad to Turn 3 reinforcements."
+    }
+  ],
+  "special_rules": [],
+  "american": {
+    "elr": 5,
+
+    "initial_setup": {
+      "allowed_hexes": [
+        "N3",
+        "N4",
+        "M5",
+        "L5"
+      ],
+      "max_mmc_per_hex": 1,
+
+      "units": [
+        {
+          "unit_id": "US_E_747",
+          "count": 3
+        },
+        {
+          "unit_id": "US_E_337",
+          "count": 1
+        },
+        {
+          "unit_id": "US_LDR_8-1",
+          "count": 1
+        }
+      ]
+    },
+
+    "reinforcements": [
+      {
+        "turn": 1,
+        "entry": "north",
+        "units": [
+          {
+            "unit_id": "US_E_747",
+            "count": 3
+          },
+          {
+            "unit_id": "US_LDR_8-1",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "entry": "north",
+        "units": [
+          {
+            "unit_id": "US_E_747",
+            "count": 2
+          },
+          {
+            "unit_id": "US_LDR_8-0",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "entry": "north",
+        "units": [
+          {
+            "unit_id": "US_E_747",
+            "count": 2
+          },
+          {
+            "unit_id": "US_E_337",
+            "count": 2
+          },
+          {
+            "unit_id": "US_LDR_9-2",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+
+  "german": {
+    "elr": 3,
+    "1058_grenadier_regiment": {
+      "reinforcements": [
+        {
+          "turn": 1,
+          "entry": "east",
+          "units": [
+            {
+              "unit_id": "GER_1_467",
+              "count": 3
+            },
+            {
+              "unit_id": "GER_LDR_8-1",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    "919_grenadier_regiment": {
+      "reinforcements": [
+        {
+          "turn": 1,
+          "entry": "west",
+          "units": [
+            {
+              "unit_id": "GER_2_447",
+              "count": 3
+            },
+            {
+              "unit_id": "GER_LDR_7-0",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    "6_fallschirmjager_regiment": {
+      "reinforcements": [
+        {
+          "turn": 2,
+          "entry": "east",
+          "units": [
+            {
+              "unit_id": "GER_E_548",
+              "count": 3
+            },
+            {
+              "unit_id": "GER_LDR_9-1",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "turn": 3,
+          "entry": "east",
+          "units": [
+            {
+              "unit_id": "GER_E_548",
+              "count": 2
+            },
+            {
+              "unit_id": "GER_LDR_9-1",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

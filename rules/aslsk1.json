@@ -1,0 +1,139 @@
+{
+  "schema_version": "0.1",
+  "name": "ASLSK1 terrain rules",
+  "movement_rules": {
+    "road_bonus": {
+      "enabled": true,
+      "bonus_mf": 1,
+      "condition": "Unit spends its entire Movement Phase moving only along valid road_connections.",
+      "restriction": "The bonus MF must also be spent moving along a valid road_connection.",
+      "notes": "Road itself is treated as Open Ground for terrain purposes. Road bonus does not change TEM."
+    }
+  },
+  "terrain_types": {
+    "OpenGround": {
+      "mf_cost_infantry": 1,
+      "tem": 0,
+      "blocks_los": false,
+      "hindrance": 0,
+      "is_open_ground_for_ffmo": true,
+      "notes": "No terrain feature. FFMO may apply during Defensive First Fire against moving infantry if LOS is not hindered."
+    },
+    "StoneBuilding": {
+      "mf_cost_infantry": 2,
+      "tem": 3,
+      "los_obstacle": true,
+      "los_obstacle_scope": "printed_artwork_only",
+      "hindrance": 0,
+      "is_open_ground_for_ffmo": false,
+      "notes": "Grey building. Blocks LOS only when a threat line across printed artwork of building. The hex with building does not block LOS automaticaly."
+    },
+    "WoodenBuilding": {
+      "mf_cost_infantry": 2,
+      "tem": 2,
+      "los_obstacle": true,
+      "los_obstacle_scope": "printed_artwork_only",
+      "hindrance": 0,
+      "is_open_ground_for_ffmo": false,
+      "notes": "Brown building. Blocks LOS only when a threat line across printed artwork of building. The hex with building does not block LOS automaticaly."
+    },
+    "Woods": {
+      "mf_cost_infantry": 2,
+      "tem": 1,
+      "blocks_los": true,
+      "hindrance": 0,
+      "is_open_ground_for_ffmo": false,
+      "notes": "Woods are a LOS obstacle and provide +1 TEM."
+    },
+    "Orchard": {
+      "mf_cost_infantry": 1,
+      "tem": 0,
+      "blocks_los": false,
+      "hindrance": 1,
+      "is_open_ground_for_ffmo": false,
+      "inherent_terrain": true,
+      "notes": "Orchard is a LOS hindrance, not a LOS obstacle. Add +1 DRM for each intervening orchard hex crossed. No TEM, but no FFMO because it is not open ground."
+    },
+    "Grain": {
+      "mf_cost_infantry": {
+        "in_season": 1.5,
+        "out_of_season": 1
+      },
+      "tem": 0,
+      "blocks_los": false,
+      "hindrance": {
+        "in_season": 1,
+        "out_of_season": 0
+      },
+      "is_open_ground_for_ffmo": {
+        "in_season": false,
+        "out_of_season": true
+      },
+      "season": {
+        "in_season_months": [
+          "June",
+          "July",
+          "August",
+          "September"
+        ],
+        "scenario_override_allowed": true
+      },
+      "notes": "Grain is a hindrance in season and open ground out of season."
+    }
+  },
+  "fire_modifiers": {
+    "PBF": {
+      "name": "Point Blank Fire",
+      "condition": "Target is in an adjacent location/hex.",
+      "fp_multiplier": 2
+    },
+    "LongRangeFire": {
+      "condition": "Target is beyond normal range up to double normal range.",
+      "fp_multiplier": 0.5
+    },
+    "AdvancingFire": {
+      "condition": "Attacker fires in AFPh after moving.",
+      "fp_multiplier": 0.5
+    },
+    "AreaFire": {
+      "condition": "Generic area fire condition.",
+      "fp_multiplier": 0.5,
+      "notes": "Multiple area fire modifiers can stack."
+    },
+    "FFMO": {
+      "name": "First Fire Movement in Open Ground",
+      "condition": "Defensive First Fire against moving infantry in open ground, unless LOS is hindered.",
+      "drm": -1
+    },
+    "FFNAM": {
+      "name": "First Fire Non-Assault Movement",
+      "condition": "Defensive First Fire against moving infantry that did not use Assault Movement.",
+      "drm": -1
+    }
+  },
+  "los_rules": {
+    "method": "center_dot_to_center_dot",
+    "obstacles": {
+      "building": {
+        "blocks_los": true,
+        "scope": "printed_artwork_only"
+      },
+      "woods": {
+        "blocks_los": true,
+        "scope": "printed_artwork_only"
+      }
+    },
+    "hindrances": {
+      "Orchard": {
+        "scope": "inherent_hex",
+        "drm_per_hex": 1
+      },
+      "Grain": {
+        "scope": "inherent_hex",
+        "drm_per_hex": 1
+      }
+    },
+    "hindrance_block_threshold": 6,
+    "notes": "LOS is checked from center dot to center dot. Terrain in firing or target hex does not block LOS to its own center dot."
+  }
+}
