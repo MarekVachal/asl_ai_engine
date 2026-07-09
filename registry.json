@@ -4,7 +4,7 @@
         "1":{
 
             "rules":"rules/aslsk1.json",
-
+            "units":"units.json",
             "maps":{
 
                 "Y":"maps/map_y.json",
